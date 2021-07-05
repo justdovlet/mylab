@@ -159,9 +159,9 @@ spec:
         - name: ELASTICSEARCH_PORT
           value: "9200"
         - name: ELASTICSEARCH_USERNAME
-          value: 
+          value: elastic
         - name: ELASTICSEARCH_PASSWORD
-          value: 
+          value: changeme
         securityContext:
           runAsUser: 0
           # If using Red Hat OpenShift uncomment this:
